@@ -1,0 +1,48 @@
+# Ignore build artifacts and temporary files
+build/
+*.o
+*.d
+*.ilk
+*.pdb
+*.exe
+*.out
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.user
+*.user.*
+*.suo
+
+# Ignore generated files
+gen/
+*.generated.h
+
+# Ignore log files
+*.log
+
+# Ignore compiler-specific files
+*.DS_Store
+*.vs
+*.stackdump
+*.db
+*.cppcheck*
+*.exp
+*.lib
+*.dll
+*.dll.a
+*.o.dSYM/
+*.dSYM/
+*.gcno
+*.gcda
+*.gcov
+
+# Ignore Unity build files
+unity_builds/
+*.unitybuild
+
+# Ignore other project-specific files
+config.h
